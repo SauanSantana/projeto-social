@@ -37,3 +37,19 @@ left: 23px;
 width: 266px;
 height: 470px;
 }
+section#redes_sociais{
+    text-align: right;
+    margin-right: 3px;
+}
+section#redes_sociais img{
+ border-radius: 50%;
+ width: 40px;
+ margin: 3px;
+ box-sizing: border-box;
+ box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.349) ;
+}
+section#redes_sociais img:hover{
+    border: 3px solid rgba(255, 255, 255, 0.63);
+    transform: translate(-3px,-3px);
+    transition: transform .3s, border .4s;
+}
